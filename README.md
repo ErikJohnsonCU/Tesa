@@ -13,3 +13,5 @@ LED driver(TLC59711) -> Adafruit-Eagle-Library-master/adafruit/TLC59711
 Use the dru file in this directory.
 Tools->DRC->Load the file
 Modify all mins to be more!!!
+
+Radius of board cut is: 2.436 cm or 0.96"
