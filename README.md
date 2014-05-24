@@ -15,3 +15,5 @@ Tools->DRC->Load the file
 Modify all mins to be more!!!
 
 Radius of board cut is: 2.436 cm or 0.96"
+
+Size of text is 28 for refdes, and 40 for header names
