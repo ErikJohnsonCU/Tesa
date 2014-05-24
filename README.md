@@ -9,3 +9,7 @@ uC(AtMega328) -> SparkFun-Eagle-Libraries-master/SparkFun-DigitalIC/ATMEGA328_SM
 Touch capacitance(AT42QT1070) -> Adafruit-Eagle-Library-master/adafruit/AT42QT1070
 Accelerometer(MMA8452Q) -> SparkFun-Eagle-Libraries-master/Sparkfun-Sensors/MMA8452Q
 LED driver(TLC59711) -> Adafruit-Eagle-Library-master/adafruit/TLC59711
+
+Use the dru file in this directory.
+Tools->DRC->Load the file
+Modify all mins to be more!!!
