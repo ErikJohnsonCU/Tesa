@@ -2826,6 +2826,10 @@ Source: www.kingbright.com</description>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="48.26" x2="7.62" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="40.64" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
+<junction x="22.86" y="48.26"/>
+<junction x="22.86" y="45.72"/>
+<junction x="22.86" y="43.18"/>
+<junction x="22.86" y="40.64"/>
 </segment>
 <segment>
 <pinref part="PWR" gate="A" pin="2"/>
@@ -2856,6 +2860,8 @@ Source: www.kingbright.com</description>
 <wire x1="7.62" y1="60.96" x2="7.62" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="15.24" y1="63.5" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
+<junction x="22.86" y="55.88"/>
+<junction x="15.24" y="60.96"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -2942,6 +2948,7 @@ Source: www.kingbright.com</description>
 <wire x1="63.5" y1="91.44" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="91.44" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="VDD2" gate="G$1" pin="VDD"/>
+<junction x="45.72" y="91.44"/>
 </segment>
 </net>
 <net name="TOUCH" class="0">
