@@ -22,3 +22,9 @@ Power -> 1
 Micro -> 2
 Accel -> 3
 Touch -> 4
+
+Leds are numbered as follows:
+Power -> 0 (rgb positions to be added)
+Micro -> 1 (rgb positions to be added)
+Accel -> 2 (rgb positions to be added)
+Touch -> 3 (rgb positions to be added)
