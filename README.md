@@ -12,8 +12,13 @@ LED driver(TLC59711) -> Adafruit-Eagle-Library-master/adafruit/TLC59711
 
 Use the dru file in this directory.
 Tools->DRC->Load the file
-Modify all mins to be more!!!
 
 Radius of board cut is: 2.436 cm or 0.96"
 
 Size of text is 28 (ratio 10 %) for refdes, and 40 (ratio 16 %) for header names
+
+Touch pads are numbered as follows:
+Power -> 1
+Micro -> 2
+Accel -> 3
+Touch -> 4
