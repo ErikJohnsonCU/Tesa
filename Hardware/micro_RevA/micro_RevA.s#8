@@ -7704,6 +7704,21 @@ Some male, some female. Watch your step!</description>
 <wire x1="180.34" y1="12.7" x2="167.64" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="VCC"/>
+<wire x1="180.34" y1="17.78" x2="177.8" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="17.78" x2="177.8" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="F1" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="25.4" x2="170.18" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="F1" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="25.4" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
