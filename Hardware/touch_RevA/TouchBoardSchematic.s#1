@@ -3249,7 +3249,6 @@ Source: www.kingbright.com</description>
 <part name="TO_TOUCH" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
-<part name="R5" library="eagle-ltspice" deviceset="R" device="R0603"/>
 </parts>
 <sheets>
 <sheet>
@@ -3279,7 +3278,6 @@ Source: www.kingbright.com</description>
 <instance part="TO_TOUCH" gate="G$1" x="25.4" y="88.9" rot="R90"/>
 <instance part="P+1" gate="VCC" x="48.26" y="53.34"/>
 <instance part="P+2" gate="VCC" x="109.22" y="58.42"/>
-<instance part="R5" gate="G$1" x="99.06" y="53.34"/>
 </instances>
 <busses>
 </busses>
@@ -3491,8 +3489,6 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="53.34" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="53.34" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -3500,13 +3496,6 @@ Source: www.kingbright.com</description>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="58.42" y1="48.26" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="48.26" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUT4"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
