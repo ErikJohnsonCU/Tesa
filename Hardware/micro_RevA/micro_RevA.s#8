@@ -7658,6 +7658,11 @@ Some male, some female. Watch your step!</description>
 <wire x1="81.28" y1="132.08" x2="63.5" y2="132.08" width="0.1524" layer="91"/>
 <label x="63.5" y="132.08" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="F1" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="25.4" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
+<label x="147.32" y="25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DATA_M" class="0">
 <segment>
@@ -7711,12 +7716,6 @@ Some male, some female. Watch your step!</description>
 <wire x1="177.8" y1="17.78" x2="177.8" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="25.4" x2="170.18" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="F1" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="25.4" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

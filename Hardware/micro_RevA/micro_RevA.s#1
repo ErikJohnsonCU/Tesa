@@ -7543,12 +7543,22 @@ Some male, some female. Watch your step!</description>
 <wire x1="88.9" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
 <label x="50.8" y="35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB7(OC0A/OC1C/RTS)"/>
+<wire x1="129.54" y1="104.14" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
+<label x="137.16" y="104.14" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DATA" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="SDTI"/>
 <wire x1="88.9" y1="33.02" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
 <label x="50.8" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB6(OC1B/OC4B/ADC13)"/>
+<wire x1="129.54" y1="101.6" x2="142.24" y2="101.6" width="0.1524" layer="91"/>
+<label x="137.16" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX" class="0">

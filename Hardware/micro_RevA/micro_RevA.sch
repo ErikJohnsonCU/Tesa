@@ -7309,26 +7309,42 @@ Some male, some female. Watch your step!</description>
 </segment>
 <segment>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
-<wire x1="83.82" y1="124.46" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="124.46" x2="81.28" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="124.46" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="124.46" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="137.16" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="137.16" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="137.16" x2="81.28" y2="137.16" width="0.1524" layer="91"/>
 <junction x="76.2" y="137.16"/>
-<wire x1="83.82" y1="116.84" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="137.16" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="116.84" x2="81.28" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="116.84" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="116.84" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
 <junction x="76.2" y="124.46"/>
 <wire x1="76.2" y1="119.38" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="121.92" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="114.3" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="114.3" x2="81.28" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="114.3" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="114.3" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="119.38" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="VCC1"/>
+<wire x1="81.28" y1="119.38" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
 <junction x="76.2" y="116.84"/>
 <junction x="76.2" y="119.38"/>
 <junction x="76.2" y="121.92"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="/RESET"/>
+<junction x="81.28" y="137.16"/>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<junction x="81.28" y="124.46"/>
+<junction x="81.28" y="121.92"/>
+<pinref part="U$1" gate="G$1" pin="UVCC"/>
+<junction x="81.28" y="119.38"/>
+<pinref part="U$1" gate="G$1" pin="AVCC"/>
+<junction x="81.28" y="116.84"/>
+<pinref part="U$1" gate="G$1" pin="AVCC1"/>
+<junction x="81.28" y="114.3"/>
 </segment>
 <segment>
 <pinref part="POWER" gate="G$1" pin="3"/>
@@ -7672,6 +7688,7 @@ Some male, some female. Watch your step!</description>
 <pinref part="U$1" gate="G$1" pin="VBUS"/>
 <wire x1="81.28" y1="132.08" x2="63.5" y2="132.08" width="0.1524" layer="91"/>
 <label x="63.5" y="132.08" size="1.778" layer="95"/>
+<junction x="81.28" y="132.08"/>
 </segment>
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
