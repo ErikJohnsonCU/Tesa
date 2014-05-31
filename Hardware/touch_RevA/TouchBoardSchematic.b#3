@@ -715,8 +715,7 @@ design rules under a new name.</description>
 <signal name="TOUCH1">
 <contactref element="R1" pad="2"/>
 <contactref element="PWR" pad="1"/>
-<wire x1="36.218721875" y1="38.914475" x2="32.54595625" y2="42.587240625" width="0.2032" layer="1"/>
-<wire x1="32.54595625" y1="42.587240625" x2="32.54595625" y2="44.416040625" width="0.2032" layer="1"/>
+<wire x1="36.218721875" y1="38.914475" x2="32.54595625" y2="44.416040625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TOUCH2">
 <contactref element="R2" pad="2"/>
