@@ -33,3 +33,7 @@ Micro -> 1 (rgb positions to be added)
 Accel -> 2 (rgb positions to be added)
 Touch -> 3 (rgb positions to be added)
 r=3,g=2,b=1
+
+Fab Houses under consideration:
+Itead studio (used last summer by Campbell)
+OSHpark (recommended by work buddy and Steve)
