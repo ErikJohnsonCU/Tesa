@@ -7113,7 +7113,6 @@ Some male, some female. Watch your step!</description>
 <part name="POWER" library="SparkFun-Connectors" deviceset="M06" device="SMD-STRAIGHT-ALT"/>
 <part name="ACCEL" library="SparkFun-Connectors" deviceset="M06" device="SMD-STRAIGHT-ALT"/>
 <part name="TOUCH" library="SparkFun-Connectors" deviceset="M06" device="SMD-STRAIGHT-ALT"/>
-<part name="SPI" library="SparkFun-Connectors" deviceset="M06" device="SMD-STRAIGHT-ALT"/>
 <part name="TO_PAD" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="VDD1" library="supply1" deviceset="VDD" device=""/>
 <part name="VDD2" library="supply1" deviceset="VDD" device=""/>
@@ -7125,6 +7124,7 @@ Some male, some female. Watch your step!</description>
 <part name="R4" library="resistor" deviceset="R-US_" device="R0603" value="22"/>
 <part name="R5" library="resistor" deviceset="R-US_" device="R0603" value="22"/>
 <part name="F1" library="ptc-littlefuse" deviceset="1812L" device=""/>
+<part name="SPI" library="SparkFun-Connectors" deviceset="M06" device="SMD-STRAIGHT-ALT"/>
 </parts>
 <sheets>
 <sheet>
@@ -7157,7 +7157,6 @@ Some male, some female. Watch your step!</description>
 <instance part="POWER" gate="G$1" x="187.96" y="134.62" rot="R180"/>
 <instance part="ACCEL" gate="G$1" x="187.96" y="109.22" rot="R180"/>
 <instance part="TOUCH" gate="G$1" x="187.96" y="81.28" rot="R180"/>
-<instance part="SPI" gate="G$1" x="187.96" y="55.88" rot="R180"/>
 <instance part="TO_PAD" gate="G$1" x="193.04" y="33.02"/>
 <instance part="VDD1" gate="G$1" x="91.44" y="5.08"/>
 <instance part="VDD2" gate="G$1" x="180.34" y="144.78"/>
@@ -7175,6 +7174,7 @@ Some male, some female. Watch your step!</description>
 <attribute name="VALUE" x="163.83" y="11.938" size="1.778" layer="96"/>
 </instance>
 <instance part="F1" gate="G$1" x="165.1" y="25.4"/>
+<instance part="SPI" gate="G$1" x="187.96" y="55.88" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -7263,10 +7263,10 @@ Some male, some female. Watch your step!</description>
 <wire x1="175.26" y1="137.16" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SPI" gate="G$1" pin="6"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="182.88" y1="48.26" x2="180.34" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="48.26" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="SPI" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="GND"/>
@@ -7337,10 +7337,10 @@ Some male, some female. Watch your step!</description>
 <wire x1="170.18" y1="134.62" x2="170.18" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SPI" gate="G$1" pin="1"/>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
 <wire x1="182.88" y1="60.96" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="60.96" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="SPI" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -7572,9 +7572,9 @@ Some male, some female. Watch your step!</description>
 <label x="132.08" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SPI" gate="G$1" pin="5"/>
 <wire x1="182.88" y1="50.8" x2="167.64" y2="50.8" width="0.1524" layer="91"/>
 <label x="167.64" y="50.8" size="1.778" layer="95"/>
+<pinref part="SPI" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -7584,9 +7584,9 @@ Some male, some female. Watch your step!</description>
 <label x="132.08" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SPI" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="58.42" x2="167.64" y2="58.42" width="0.1524" layer="91"/>
 <label x="167.64" y="58.42" size="1.778" layer="95"/>
+<pinref part="SPI" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -7596,9 +7596,9 @@ Some male, some female. Watch your step!</description>
 <label x="132.08" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SPI" gate="G$1" pin="4"/>
 <wire x1="182.88" y1="53.34" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
 <label x="167.64" y="53.34" size="1.778" layer="95"/>
+<pinref part="SPI" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -7608,9 +7608,9 @@ Some male, some female. Watch your step!</description>
 <label x="132.08" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SPI" gate="G$1" pin="3"/>
 <wire x1="182.88" y1="55.88" x2="167.64" y2="55.88" width="0.1524" layer="91"/>
 <label x="167.64" y="55.88" size="1.778" layer="95"/>
+<pinref part="SPI" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="VDD" class="0">

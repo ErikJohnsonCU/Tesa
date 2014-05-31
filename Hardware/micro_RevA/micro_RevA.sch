@@ -7099,17 +7099,17 @@ Some male, some female. Watch your step!</description>
 <part name="LED1" library="led" deviceset="LED" device="P-LCC-4"/>
 <part name="LED2" library="led" deviceset="LED" device="P-LCC-4"/>
 <part name="LED3" library="led" deviceset="LED" device="P-LCC-4"/>
-<part name="C1" library="eagle-ltspice" deviceset="C" device="C0603" value="0.1u"/>
+<part name="C101" library="eagle-ltspice" deviceset="C" device="C0603" value="0.1u"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="eagle-ltspice" deviceset="C" device="C0603" value="1u"/>
+<part name="C102" library="eagle-ltspice" deviceset="C" device="C0603" value="1u"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
-<part name="C3" library="eagle-ltspice" deviceset="C" device="C0603" value="1u"/>
-<part name="C4" library="eagle-ltspice" deviceset="C" device="C0603" value="0.1u"/>
-<part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="4.7k"/>
-<part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="4.7k"/>
-<part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="1.42k"/>
+<part name="C103" library="eagle-ltspice" deviceset="C" device="C0603" value="1u"/>
+<part name="C104" library="eagle-ltspice" deviceset="C" device="C0603" value="0.1u"/>
+<part name="R101" library="resistor" deviceset="R-US_" device="R0603" value="4.7k"/>
+<part name="R102" library="resistor" deviceset="R-US_" device="R0603" value="4.7k"/>
+<part name="R103" library="resistor" deviceset="R-US_" device="R0603" value="1.42k"/>
 <part name="POWER" library="SparkFun-Connectors" deviceset="M06" device="SMD-STRAIGHT-ALT"/>
 <part name="ACCEL" library="SparkFun-Connectors" deviceset="M06" device="SMD-STRAIGHT-ALT"/>
 <part name="TOUCH" library="SparkFun-Connectors" deviceset="M06" device="SMD-STRAIGHT-ALT"/>
@@ -7120,9 +7120,9 @@ Some male, some female. Watch your step!</description>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="USB_MICROB_PLUG" device="CONN-11752"/>
-<part name="R4" library="resistor" deviceset="R-US_" device="R0603" value="22"/>
-<part name="R5" library="resistor" deviceset="R-US_" device="R0603" value="22"/>
+<part name="USB-UB" library="SparkFun-Connectors" deviceset="USB_MICROB_PLUG" device="CONN-11752"/>
+<part name="R104" library="resistor" deviceset="R-US_" device="R0603" value="22"/>
+<part name="R105" library="resistor" deviceset="R-US_" device="R0603" value="22"/>
 <part name="F1" library="ptc-littlefuse" deviceset="1812L" device=""/>
 <part name="SPI" library="SparkFun-Connectors" deviceset="M06" device="SMD-STRAIGHT-ALT"/>
 </parts>
@@ -7143,17 +7143,17 @@ Some male, some female. Watch your step!</description>
 <instance part="LED1" gate="G$1" x="83.82" y="5.08" rot="R180"/>
 <instance part="LED2" gate="G$1" x="76.2" y="5.08" rot="R180"/>
 <instance part="LED3" gate="G$1" x="68.58" y="5.08" rot="R180"/>
-<instance part="C1" gate="G$1" x="129.54" y="43.18" rot="R90"/>
+<instance part="C101" gate="G$1" x="129.54" y="43.18" rot="R90"/>
 <instance part="GND3" gate="1" x="137.16" y="38.1"/>
-<instance part="C2" gate="G$1" x="63.5" y="101.6" rot="R90"/>
+<instance part="C102" gate="G$1" x="63.5" y="101.6" rot="R90"/>
 <instance part="GND4" gate="1" x="50.8" y="93.98"/>
 <instance part="P+3" gate="VCC" x="142.24" y="86.36"/>
 <instance part="P+4" gate="VCC" x="76.2" y="144.78"/>
-<instance part="C3" gate="G$1" x="63.5" y="121.92" rot="R90"/>
-<instance part="C4" gate="G$1" x="63.5" y="114.3" rot="R90"/>
-<instance part="R1" gate="G$1" x="137.16" y="73.66" rot="R90"/>
-<instance part="R2" gate="G$1" x="144.78" y="73.66" rot="R90"/>
-<instance part="R3" gate="G$1" x="81.28" y="38.1" rot="R180"/>
+<instance part="C103" gate="G$1" x="63.5" y="121.92" rot="R90"/>
+<instance part="C104" gate="G$1" x="63.5" y="114.3" rot="R90"/>
+<instance part="R101" gate="G$1" x="137.16" y="73.66" rot="R90"/>
+<instance part="R102" gate="G$1" x="144.78" y="73.66" rot="R90"/>
+<instance part="R103" gate="G$1" x="81.28" y="38.1" rot="R180"/>
 <instance part="POWER" gate="G$1" x="187.96" y="134.62" rot="R180"/>
 <instance part="ACCEL" gate="G$1" x="187.96" y="109.22" rot="R180"/>
 <instance part="TOUCH" gate="G$1" x="187.96" y="81.28" rot="R180"/>
@@ -7164,12 +7164,12 @@ Some male, some female. Watch your step!</description>
 <instance part="GND5" gate="1" x="175.26" y="121.92"/>
 <instance part="GND6" gate="1" x="180.34" y="43.18"/>
 <instance part="P+5" gate="VCC" x="180.34" y="66.04"/>
-<instance part="JP1" gate="G$1" x="187.96" y="12.7"/>
-<instance part="R4" gate="G$1" x="172.72" y="15.24" smashed="yes">
+<instance part="USB-UB" gate="G$1" x="187.96" y="12.7"/>
+<instance part="R104" gate="G$1" x="172.72" y="15.24" smashed="yes">
 <attribute name="NAME" x="168.91" y="16.7386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="173.99" y="17.018" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="162.56" y="10.16" smashed="yes">
+<instance part="R105" gate="G$1" x="162.56" y="10.16" smashed="yes">
 <attribute name="NAME" x="158.75" y="11.6586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="163.83" y="11.938" size="1.778" layer="96"/>
 </instance>
@@ -7234,25 +7234,25 @@ Some male, some female. Watch your step!</description>
 <wire x1="63.5" y1="38.1" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="38.1" x2="63.5" y2="38.1" width="0.1524" layer="91"/>
 <junction x="63.5" y="38.1"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R103" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C101" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="43.18" x2="137.16" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="43.18" x2="137.16" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C102" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="101.6" x2="50.8" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="101.6" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="50.8" y1="121.92" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
 <junction x="50.8" y="101.6"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C103" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="114.3" x2="50.8" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="121.92" x2="50.8" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C104" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="114.3" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
 <junction x="50.8" y="114.3"/>
 </segment>
@@ -7269,7 +7269,7 @@ Some male, some female. Watch your step!</description>
 <pinref part="SPI" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="GND"/>
+<pinref part="USB-UB" gate="G$1" pin="GND"/>
 <wire x1="180.34" y1="7.62" x2="147.32" y2="7.62" width="0.1524" layer="91"/>
 <label x="147.32" y="7.62" size="1.778" layer="95"/>
 </segment>
@@ -7278,7 +7278,7 @@ Some male, some female. Watch your step!</description>
 <segment>
 <pinref part="IC1" gate="G$1" pin="IREF"/>
 <wire x1="86.36" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R103" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -7290,7 +7290,7 @@ Some male, some female. Watch your step!</description>
 <pinref part="IC1" gate="G$1" pin="VCC"/>
 <wire x1="124.46" y1="43.18" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="43.18" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C101" gate="G$1" pin="1"/>
 <junction x="124.46" y="43.18"/>
 <wire x1="124.46" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
 </segment>
@@ -7303,8 +7303,8 @@ Some male, some female. Watch your step!</description>
 <wire x1="144.78" y1="78.74" x2="144.78" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="83.82" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
 <junction x="142.24" y="81.28"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R101" gate="G$1" pin="2"/>
+<pinref part="R102" gate="G$1" pin="2"/>
 <junction x="144.78" y="78.74"/>
 </segment>
 <segment>
@@ -7332,7 +7332,7 @@ Some male, some female. Watch your step!</description>
 <junction x="76.2" y="116.84"/>
 <junction x="76.2" y="119.38"/>
 <junction x="76.2" y="121.92"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C103" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="/RESET"/>
 <junction x="81.28" y="137.16"/>
@@ -7495,7 +7495,7 @@ Some male, some female. Watch your step!</description>
 <net name="N$8" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="UCAP"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C102" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="101.6" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7507,7 +7507,7 @@ Some male, some female. Watch your step!</description>
 <wire x1="137.16" y1="66.04" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
 <junction x="137.16" y="66.04"/>
 <label x="152.4" y="66.04" size="1.778" layer="95"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R101" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="ACCEL" gate="G$1" pin="1"/>
@@ -7529,7 +7529,7 @@ Some male, some female. Watch your step!</description>
 <wire x1="144.78" y1="63.5" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
 <junction x="144.78" y="63.5"/>
 <label x="152.4" y="63.5" size="1.778" layer="95"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R102" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="ACCEL" gate="G$1" pin="2"/>
@@ -7547,7 +7547,7 @@ Some male, some female. Watch your step!</description>
 <wire x1="78.74" y1="111.76" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="AREF"/>
 <wire x1="78.74" y1="96.52" x2="81.28" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C104" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="114.3" x2="73.66" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="114.3" x2="73.66" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="111.76" x2="78.74" y2="111.76" width="0.1524" layer="91"/>
@@ -7703,7 +7703,7 @@ Some male, some female. Watch your step!</description>
 <label x="63.5" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R104" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="15.24" x2="147.32" y2="15.24" width="0.1524" layer="91"/>
 <label x="147.32" y="15.24" size="1.778" layer="95"/>
 </segment>
@@ -7715,30 +7715,30 @@ Some male, some female. Watch your step!</description>
 <label x="63.5" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R105" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="10.16" x2="147.32" y2="10.16" width="0.1524" layer="91"/>
 <label x="147.32" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="D-"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="USB-UB" gate="G$1" pin="D-"/>
+<pinref part="R104" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="15.24" x2="177.8" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="D+"/>
+<pinref part="USB-UB" gate="G$1" pin="D+"/>
 <wire x1="180.34" y1="12.7" x2="172.72" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="12.7" x2="172.72" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R105" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="10.16" x2="167.64" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="VCC"/>
+<pinref part="USB-UB" gate="G$1" pin="VCC"/>
 <wire x1="180.34" y1="17.78" x2="177.8" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="17.78" x2="177.8" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="2"/>

@@ -45,7 +45,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -115,9 +115,9 @@
 <text x="22.4536" y="31.877" size="0.7112" layer="21" ratio="10" rot="R90">C201</text>
 <text x="25.146" y="31.8516" size="0.7112" layer="21" ratio="10" rot="R90">C203</text>
 <text x="27.9908" y="31.877" size="0.7112" layer="21" ratio="10" rot="R90">C202</text>
-<circle x="26.5684" y="28.1178" radius="0.217015625" width="0.2032" layer="21"/>
-<text x="23.3426" y="23.4696" size="0.7112" layer="21" ratio="10">U201</text>
-<text x="22.7076" y="17.6022" size="1.016" layer="21" ratio="16">INTS</text>
+<circle x="26.4668" y="28.067" radius="0.217015625" width="0.2032" layer="21"/>
+<text x="23.3172" y="23.2664" size="0.7112" layer="21" ratio="10">U201</text>
+<text x="22.7838" y="17.6784" size="1.016" layer="21" ratio="16">INTS</text>
 <text x="16.0782" y="23.4442" size="1.016" layer="21" ratio="16" rot="R315">MICRO</text>
 <text x="30.7594" y="19.812" size="1.016" layer="21" ratio="16" rot="R45">POWER</text>
 <text x="22.4282" y="35.4584" size="1.016" layer="21" ratio="19">TOUCH</text>
@@ -133,6 +133,13 @@
 SENSE</text>
 <text x="19.304" y="35.0266" size="0.7112" layer="21" align="bottom-right">FROM
 BOARD</text>
+<wire x1="21.7932" y1="21.6916" x2="21.7932" y2="19.0754" width="0.254" layer="21"/>
+<wire x1="21.7932" y1="19.0754" x2="24.3078" y2="19.0754" width="0.254" layer="21"/>
+<wire x1="24.3078" y1="19.0754" x2="24.3078" y2="19.0246" width="0.254" layer="21"/>
+<wire x1="24.3078" y1="19.0246" x2="24.384" y2="19.0246" width="0.254" layer="21"/>
+<wire x1="24.384" y1="19.0246" x2="24.384" y2="21.6662" width="0.254" layer="21"/>
+<wire x1="24.384" y1="21.6662" x2="21.844" y2="21.6662" width="0.254" layer="21"/>
+<wire x1="21.844" y1="21.6662" x2="21.844" y2="21.717" width="0.254" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-Sensors">
