@@ -15,7 +15,7 @@ Tools->DRC->Load the file
 
 Radius of board cut is: 2.436 cm or 0.96"
 
-Size of text is 28 (ratio 10 %) for refdes, and 40 (ratio 16 %) for header names
+Size of text is 40 (ratio 10 %) for refdes, and 60 (ratio 16 %) for header names
 (these might need to be made larger for readability)
 
 Size of signal traces is 8 mils
