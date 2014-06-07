@@ -10,9 +10,6 @@ Touch capacitance(AT42QT1070) -> Adafruit-Eagle-Library-master/adafruit/AT42QT10
 Accelerometer(MMA8452Q) -> SparkFun-Eagle-Libraries-master/Sparkfun-Sensors/MMA8452Q
 LED driver(TLC59711) -> Adafruit-Eagle-Library-master/adafruit/TLC59711
 
-Use the dru file in this directory.
-Tools->DRC->Load the file
-
 Radius of board cut is: 2.436 cm or 0.96"
 
 Size of text is 40 (ratio 10 %) for refdes, and 60 (ratio 16 %) for header names
@@ -34,6 +31,4 @@ Accel -> 2 (rgb positions to be added)
 Touch -> 3 (rgb positions to be added)
 r=3,g=2,b=1
 
-Fab Houses under consideration:
-Itead studio (used last summer by Campbell)
-OSHpark (recommended by work buddy and Steve)
+Erik, don't forget to label the + and - on the LEDs or everyone will hate you!!!
