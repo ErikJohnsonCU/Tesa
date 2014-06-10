@@ -2716,7 +2716,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="ACCEL" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="PWR_IN" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="TO_PAD" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="Q1" library="transistor-power" deviceset="TIP120" device=""/>
+<part name="Q401" library="transistor-power" deviceset="TIP120" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="P-LCC-4"/>
 <part name="LED2" library="led" deviceset="LED" device="P-LCC-4"/>
 <part name="LED3" library="led" deviceset="LED" device="P-LCC-4"/>
@@ -2733,7 +2733,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="ACCEL" gate="A" x="106.68" y="7.62"/>
 <instance part="PWR_IN" gate="G$1" x="48.26" y="20.32"/>
 <instance part="TO_PAD" gate="G$1" x="86.36" y="33.02"/>
-<instance part="Q1" gate="1" x="55.88" y="58.42" rot="R180"/>
+<instance part="Q401" gate="1" x="55.88" y="58.42" rot="R180"/>
 <instance part="LED1" gate="G$1" x="20.32" y="63.5"/>
 <instance part="LED2" gate="G$1" x="10.16" y="63.5"/>
 <instance part="LED3" gate="G$1" x="-5.08" y="63.5"/>
@@ -2777,7 +2777,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C401" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="48.26" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
 <junction x="38.1" y="45.72"/>
-<pinref part="Q1" gate="1" pin="E"/>
+<pinref part="Q401" gate="1" pin="E"/>
 <wire x1="53.34" y1="63.5" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="63.5" x2="48.26" y2="45.72" width="0.1524" layer="91"/>
 <junction x="48.26" y="45.72"/>
@@ -2802,7 +2802,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="66.04" y1="63.5" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
 <junction x="93.98" y="58.42"/>
-<pinref part="Q1" gate="1" pin="C"/>
+<pinref part="Q401" gate="1" pin="C"/>
 <wire x1="53.34" y1="53.34" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="48.26" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="48.26" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
@@ -2874,7 +2874,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="71.12" y1="81.28" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
 <junction x="30.48" y="63.5"/>
-<pinref part="Q1" gate="1" pin="B"/>
+<pinref part="Q401" gate="1" pin="B"/>
 <wire x1="99.06" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="53.34" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
 <junction x="99.06" y="53.34"/>
