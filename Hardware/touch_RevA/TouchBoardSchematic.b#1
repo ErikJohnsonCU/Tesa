@@ -22,8 +22,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -152,6 +152,12 @@
 <text x="39.7002" y="46.8884" size="1.016" layer="21" ratio="10" rot="R135">R303</text>
 <text x="42.3672" y="49.5046" size="1.016" layer="21" ratio="10" rot="R135">R304</text>
 <text x="45.1104" y="28.0416" size="1.016" layer="21" ratio="10" rot="R135">C301</text>
+<text x="27.3558" y="33.0708" size="1.778" layer="22" ratio="16" rot="MR225">-</text>
+<text x="42.9514" y="53.0606" size="1.778" layer="22" ratio="16" rot="MR0">-</text>
+<text x="61.8744" y="23.6728" size="1.778" layer="22" ratio="16" rot="MR315">-</text>
+<text x="52.2224" y="58.166" size="1.778" layer="22" ratio="16" rot="MR0">+</text>
+<text x="62.1538" y="37.6936" size="1.778" layer="22" ratio="16" rot="MR227">+</text>
+<text x="39.6748" y="28.956" size="1.778" layer="22" ratio="16" rot="MR315">+</text>
 </plain>
 <libraries>
 <library name="adafruit">

@@ -31,6 +31,8 @@ Accel -> 2 (rgb positions to be added)
 Touch -> 3 (rgb positions to be added)
 r=3,g=2,b=1
 
+Logo label text size = 150
+
 Erik, don't forget to label the + and - on the LEDs or everyone will hate you!!!
 
 Double check LED routing on ALL boards!

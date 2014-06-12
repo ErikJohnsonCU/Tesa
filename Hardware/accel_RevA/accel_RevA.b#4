@@ -115,9 +115,9 @@
 <text x="22.4536" y="31.877" size="0.7112" layer="21" ratio="10" rot="R90">C201</text>
 <text x="25.146" y="31.8516" size="0.7112" layer="21" ratio="10" rot="R90">C203</text>
 <text x="27.9908" y="31.877" size="0.7112" layer="21" ratio="10" rot="R90">C202</text>
-<circle x="26.5684" y="28.1178" radius="0.217015625" width="0.2032" layer="21"/>
-<text x="23.3426" y="23.4696" size="0.7112" layer="21" ratio="10">U201</text>
-<text x="22.7076" y="17.6022" size="1.016" layer="21" ratio="16">INTS</text>
+<circle x="26.4668" y="28.067" radius="0.217015625" width="0.2032" layer="21"/>
+<text x="23.3172" y="23.2664" size="0.7112" layer="21" ratio="10">U201</text>
+<text x="22.7838" y="17.6784" size="1.016" layer="21" ratio="16">INTS</text>
 <text x="16.0782" y="23.4442" size="1.016" layer="21" ratio="16" rot="R315">MICRO</text>
 <text x="30.7594" y="19.812" size="1.016" layer="21" ratio="16" rot="R45">POWER</text>
 <text x="22.4282" y="35.4584" size="1.016" layer="21" ratio="19">TOUCH</text>

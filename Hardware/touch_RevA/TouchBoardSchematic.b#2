@@ -144,6 +144,14 @@
 <wire x1="38.1" y1="38.9128" x2="36.1696" y2="37.1348" width="0.2032" layer="21"/>
 <wire x1="36.1696" y1="37.1348" x2="34.3154" y2="39.0398" width="0.2032" layer="21"/>
 <wire x1="34.3154" y1="39.0398" x2="36.1188" y2="40.767" width="0.2032" layer="21"/>
+<circle x="46.5328" y="34.0106" radius="0.487915625" width="0.2032" layer="21"/>
+<text x="48.0568" y="44.45" size="1.016" layer="21" ratio="10" rot="R315">U301</text>
+<text x="57.8866" y="45.339" size="1.016" layer="21" ratio="10" rot="R135">R305</text>
+<text x="33.5788" y="41.4274" size="1.016" layer="21" ratio="10" rot="R135">R301</text>
+<text x="36.576" y="44.2976" size="1.016" layer="21" ratio="10" rot="R135">R302</text>
+<text x="39.7002" y="46.8884" size="1.016" layer="21" ratio="10" rot="R135">R303</text>
+<text x="42.3672" y="49.5046" size="1.016" layer="21" ratio="10" rot="R135">R304</text>
+<text x="45.1104" y="28.0416" size="1.016" layer="21" ratio="10" rot="R135">C301</text>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -599,23 +607,23 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="IC1" library="adafruit" package="SO14" value="AT42QT1070-SSU" x="45.8216" y="40.0558" smashed="yes" rot="R45"/>
-<element name="C1" library="eagle-ltspice" package="C0603" value="0.1u" x="44.6278" y="30.226" rot="R313.8">
+<element name="C1" library="eagle-ltspice" package="C0603" value="0.1u" x="44.6278" y="30.226" smashed="yes" rot="R313.8">
 <attribute name="SPICEMODEL" value="NONE" x="37.459125" y="-11.84029375" size="1.778" layer="27" rot="R313.8" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="37.459125" y="-11.84029375" size="1.778" layer="27" rot="R313.8" display="off"/>
 </element>
-<element name="R1" library="eagle-ltspice" package="R0603" value="20k" x="33.147" y="43.815" rot="R135">
+<element name="R1" library="eagle-ltspice" package="R0603" value="20k" x="33.147" y="43.815" smashed="yes" rot="R135">
 <attribute name="SPICEMODEL" value="NONE" x="35.841075" y="89.6143" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="35.841075" y="89.6143" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
-<element name="R2" library="eagle-ltspice" package="R0603" value="20k" x="36.0934" y="46.3804" rot="R135">
+<element name="R2" library="eagle-ltspice" package="R0603" value="20k" x="36.0934" y="46.3804" smashed="yes" rot="R135">
 <attribute name="SPICEMODEL" value="NONE" x="35.195375" y="95.77180625" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="35.195375" y="95.77180625" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
-<element name="R3" library="eagle-ltspice" package="R0603" value="20k" x="39.116" y="49.1998" rot="R135">
+<element name="R3" library="eagle-ltspice" package="R0603" value="20k" x="39.116" y="49.1998" smashed="yes" rot="R135">
 <attribute name="SPICEMODEL" value="NONE" x="34.625871875" y="102.183309375" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="34.625871875" y="102.183309375" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
-<element name="R4" library="eagle-ltspice" package="R0603" value="20k" x="41.7576" y="51.6636" rot="R135">
+<element name="R4" library="eagle-ltspice" package="R0603" value="20k" x="41.7576" y="51.6636" smashed="yes" rot="R135">
 <attribute name="SPICEMODEL" value="NONE" x="57.922059375" y="91.176721875" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="57.922059375" y="91.176721875" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
@@ -643,7 +651,7 @@ design rules under a new name.</description>
 <element name="CHANGE_PIN" library="pinhead" package="1X01" value="" x="61.0616" y="49.3268" smashed="yes">
 <attribute name="VALUE" x="59.7916" y="46.1518" size="1.27" layer="27"/>
 </element>
-<element name="R5" library="eagle-ltspice" package="R0603" value="20k" x="55.0164" y="45.1358" rot="R315">
+<element name="R5" library="eagle-ltspice" package="R0603" value="20k" x="55.0164" y="45.1358" smashed="yes" rot="R315">
 <attribute name="SPICEMODEL" value="NONE" x="42.444040625" y="2.030565625" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="42.444040625" y="2.030565625" size="1.778" layer="27" rot="R315" display="off"/>
 </element>
