@@ -1,0 +1,24 @@
+BOM
+
+-AtMega32u4
+-AT42QT1070
+-MMA8452Q
+-TLC59711
+-4.7u cap
+-0.1u cap x6
+-1u cap x2
+-4.7k res x2
+-22 res x2
+-MF-MSMF050-2
+-1.42k (and surrounding values)
+-10u cap
+-the regulator
+-20k res x5
+-1 pin through-hole header x8
+-2 pin through-hole header x2
+-3 pin through-hole header x2
+-4 pin through-hole header x2
+-5 pin through-hole header x1
+-6 pin through-hole header x2
+-6 pin SMD header x4
+-SMD micro USB plug
