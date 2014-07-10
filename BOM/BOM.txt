@@ -22,3 +22,5 @@ BOM
 -6 pin through-hole header x2
 -6 pin SMD header x4
 -SMD micro USB plug
+
+total # of headers: 43 (order 45)
