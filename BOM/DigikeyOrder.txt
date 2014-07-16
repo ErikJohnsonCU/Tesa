@@ -1,0 +1,5 @@
+DigiKey
+
+Product Number			Quantity
+S1013E-06-ND			24
+
