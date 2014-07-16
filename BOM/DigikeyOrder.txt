@@ -2,4 +2,4 @@ DigiKey
 
 Product Number			Quantity
 S1013E-06-ND			24
-
+MCP6002-I/P-ND			3
