@@ -138,6 +138,7 @@
 <text x="21.463" y="1.397" size="1.524" layer="21" ratio="10">USB-uB</text>
 <text x="28.3464" y="6.35" size="1.016" layer="22" ratio="10" rot="MR0">USB-uB</text>
 <text x="32.9946" y="9.7282" size="1.016" layer="22" ratio="10" rot="MR270">F101</text>
+<text x="27.9654" y="32.004" size="1.778" layer="21">v0.1</text>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -1943,7 +1944,7 @@ design rules under a new name.</description>
 <wire x1="18.88904375" y1="32.45264375" x2="20.0152" y2="33.5788" width="0.2032" layer="16"/>
 <wire x1="20.0152" y1="33.5788" x2="20.0152" y2="34.6202" width="0.2032" layer="16"/>
 <wire x1="20.0152" y1="34.6202" x2="19.5326" y2="35.1028" width="0.2032" layer="16"/>
-<via x="19.5326" y="35.1028" extent="1-16" drill="0.6"/>
+<via x="19.5326" y="35.1028" extent="1-16" drill="0.5"/>
 <wire x1="19.5326" y1="35.1028" x2="19.5326" y2="28.2702" width="0.2032" layer="1"/>
 <wire x1="19.5326" y1="28.2702" x2="19.939" y2="27.8638" width="0.2032" layer="1"/>
 <wire x1="19.939" y1="27.8638" x2="19.939" y2="27.305" width="0.2032" layer="1"/>
