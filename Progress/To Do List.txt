@@ -1,0 +1,11 @@
+To Do:
+
+Everyone: verify the boards
+Erik: order the boards
+Erik: add op-amps with proper spec to order
+Adam: order the parts ** after I add the op-amps !!
+Everyone: meet with Javen
+	- update him on progress
+	- clarify the carrot
+Everyone: 'meet' with Ann
+	- clarify her level of interest in project

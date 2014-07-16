@@ -4,11 +4,7 @@ Tesa
 Working board design and firmware for Tesa
 ==========================================
 
-Location of part files in libraries:
-uC(AtMega328) -> SparkFun-Eagle-Libraries-master/SparkFun-DigitalIC/ATMEGA328_SMT
-Touch capacitance(AT42QT1070) -> Adafruit-Eagle-Library-master/adafruit/AT42QT1070
-Accelerometer(MMA8452Q) -> SparkFun-Eagle-Libraries-master/Sparkfun-Sensors/MMA8452Q
-LED driver(TLC59711) -> Adafruit-Eagle-Library-master/adafruit/TLC59711
+Hardware very close to being ordered!
 
 Radius of board cut is: 2.436 cm or 0.96"
 
@@ -30,9 +26,3 @@ Micro -> 1 (rgb positions to be added)
 Accel -> 2 (rgb positions to be added)
 Touch -> 3 (rgb positions to be added)
 r=3,g=2,b=1
-
-Logo label text size = 150
-
-Erik, don't forget to label the + and - on the LEDs or everyone will hate you!!!
-
-Double check LED routing on ALL boards!
