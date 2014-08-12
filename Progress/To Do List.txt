@@ -1,8 +1,4 @@
 To Do:
 
-Everyone: meet with Javen
-	- update him on progress
-	- clarify the carrot
-Everyone: 'meet' with Ann
-	- clarify her level of interest in project
-Everyone: transition focus to firmware until parts arrive
+Everyone: get Ann on the Github account
+Everyone: bootloader!

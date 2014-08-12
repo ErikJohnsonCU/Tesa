@@ -1,2 +1,3 @@
-Boards and parts ordered
-Boards not yet made or in transit
+Boards and parts in
+Power board verified for 3.3V regulation (not verified at load yet)
+Micro board with uC and res built, no verification yet
