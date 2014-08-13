@@ -1,3 +1,4 @@
 Heat considerations for the LED driver
 +,- for input power
 Power(/?Comm?) indication on every board
+0805 (higher voltage) caps for power

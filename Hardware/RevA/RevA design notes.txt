@@ -1,11 +1,9 @@
-Tesa
-====
+Radius of board cut is: 2.436 cm or 0.96"
 
-Working board design and firmware for Tesa
-==========================================
+Size of text is 40 (ratio 10 %) for refdes, and 60 (ratio 16 %) for header names
 
-Hardware is in! Build and verification in progress. Beginning of firmware design.
-
+Size of signal traces is 8 mils
+Size of power (LED, not Vcc or +3.3V) traces is 16 mils
 
 Touch pads are numbered as follows:
 Power -> 1
