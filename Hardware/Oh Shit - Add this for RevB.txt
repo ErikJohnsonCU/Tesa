@@ -1,4 +1,3 @@
-Heat considerations for the LED driver
 +,- for input power
 Power(/?Comm?) indication on every board
-0805 (higher voltage) caps for power
+Add pin 1 indicators for SMD headers
