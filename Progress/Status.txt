@@ -1,3 +1,8 @@
 Boards and parts in
-Power board verified for 3.3V regulation (not verified at load yet)
-Micro board with uC and res built, no verification yet
+
+Hardware builds
+===============
+Power board verified for 3.3V regulation
+Micro board with uC and res built, discarded as not functional due to burned resonator
+Accel board built, not verified (functionality highly questionable)
+Micro board with uC and res built, not verifiedyes  (missing pad on SPI header, for programming power via power header)

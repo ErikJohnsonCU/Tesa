@@ -1,4 +1,5 @@
 To Do:
 
-Everyone: get Ann on the Github account
-Everyone: bootloader!
+Everyone: make sure Ann is on the Github account
+Everyone: programming
+Everyone: meet with Javen to show him the hardware
