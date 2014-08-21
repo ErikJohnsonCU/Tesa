@@ -2,3 +2,4 @@
 Power(/?Comm?) indication on every board
 Add pin 1 indicators for SMD headers
 The regulator we chose is overkill, design for a cheaper/smaller one (it only supplies the chips, NOT the LEDs)
+Never ever SMD headers ever!!!!
