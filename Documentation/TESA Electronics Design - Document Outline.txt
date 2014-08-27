@@ -3,7 +3,7 @@ TESA Electronics Design
 1.0 Motivation
 2.0 Requirements
 	2.1 Prototype
-	2.2 Final Product
+	2.2 Consumer Product
 3.0 Prototype Design
 	3.1 Hardware
 		3.1.1 Microcontroller board
@@ -11,13 +11,13 @@ TESA Electronics Design
 		3.1.3 Touch driver board
 		3.1.4 Power distribution board
 	3.2 Firmware
-4.0 Final Product Design
+4.0 Consumer Product Design
 	4.1 Hardware
-		4.1.1 Drone discrete unit hardware
+		4.1.1 Base discrete unit hardware
 		4.1.2 Pro discrete unit hardware
-		4.1.3 Base hardware
+		4.1.3 Hub hardware
 	4.2 Firmware
-		4.2.1 Drone discrete unit firmware
+		4.2.1 Base discrete unit firmware
 		4.2.2 Pro discrete unit firmware
-		4.2.3 Base firmware
+		4.2.3 Hub firmware
 5.0 Project Timeline
