@@ -19,3 +19,6 @@ Micro -> 1 (rgb positions to be added)
 Accel -> 2 (rgb positions to be added)
 Touch -> 3 (rgb positions to be added)
 r=3,g=2,b=1
+
+Similar work by other OH designers:
+http://www.ofbrooklyn.com/2014/09/6/building-pulse-bloom-biofeedback-burning-man-2014/
