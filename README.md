@@ -14,8 +14,8 @@ Accel -> 3
 Touch -> 4
 
 Leds are numbered as follows:
-Power -> 0 (rgb positions to be added)
-Micro -> 1 (rgb positions to be added)
+Micro -> 0 (rgb positions to be added)
+Power -> 1 (rgb positions to be added)
 Accel -> 2 (rgb positions to be added)
 Touch -> 3 (rgb positions to be added)
 r=3,g=2,b=1
