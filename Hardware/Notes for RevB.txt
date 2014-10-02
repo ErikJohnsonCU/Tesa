@@ -1,0 +1,2 @@
+Signal lines: 8 mil
+Power lines: 12 mil
