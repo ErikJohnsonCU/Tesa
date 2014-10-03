@@ -11646,11 +11646,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="ADC2" library="SparkFun-Connectors" deviceset="M01" device="PTH" value=""/>
 <part name="ADC3" library="SparkFun-Connectors" deviceset="M01" device="PTH" value=""/>
 <part name="ADC6" library="SparkFun-Connectors" deviceset="M01" device="PTH" value=""/>
-<part name="RX" library="SparkFun-Connectors" deviceset="M01" device="PTH" value=""/>
-<part name="TX" library="SparkFun-Connectors" deviceset="M01" device="PTH" value=""/>
 <part name="OC1B/SS" library="SparkFun-Connectors" deviceset="M01" device="PTH" value=""/>
-<part name="SDA" library="SparkFun-Connectors" deviceset="M01" device="PTH" value=""/>
-<part name="SCL" library="SparkFun-Connectors" deviceset="M01" device="PTH" value=""/>
 <part name="ADC7" library="SparkFun-Connectors" deviceset="M01" device="PTH" value=""/>
 <part name="INT0" library="SparkFun-Connectors" deviceset="M01" device="PTH" value=""/>
 <part name="INT1" library="SparkFun-Connectors" deviceset="M01" device="PTH" value=""/>
@@ -11671,6 +11667,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="PROG/SPI" library="SparkFun-Connectors" deviceset="PINHD-2X3" device=""/>
 <part name="R108" library="rcl" deviceset="R-US_" device="R0603" value="0"/>
+<part name="PWROUT" library="SparkFun-Connectors" deviceset="M02" device="LOCK" value=""/>
+<part name="P+8" library="supply1" deviceset="VCC" device=""/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="UART" library="SparkFun-Connectors" deviceset="M02" device="LOCK" value=""/>
+<part name="I2C" library="SparkFun-Connectors" deviceset="M02" device="LOCK" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11731,20 +11732,16 @@ for just under 20mA at
 <instance part="ADC1" gate="G$1" x="127" y="147.32" rot="R180"/>
 <instance part="ADC2" gate="G$1" x="127" y="134.62" rot="R180"/>
 <instance part="ADC3" gate="G$1" x="127" y="121.92" rot="R180"/>
-<instance part="ADC6" gate="G$1" x="165.1" y="109.22" rot="R180"/>
-<instance part="RX" gate="G$1" x="200.66" y="160.02" rot="R180"/>
-<instance part="TX" gate="G$1" x="200.66" y="147.32" rot="R180"/>
-<instance part="OC1B/SS" gate="G$1" x="165.1" y="134.62" rot="R180"/>
-<instance part="SDA" gate="G$1" x="165.1" y="160.02" rot="R180"/>
-<instance part="SCL" gate="G$1" x="165.1" y="147.32" rot="R180"/>
+<instance part="ADC6" gate="G$1" x="165.1" y="119.38" rot="R180"/>
+<instance part="OC1B/SS" gate="G$1" x="165.1" y="144.78" rot="R180"/>
 <instance part="ADC7" gate="G$1" x="127" y="109.22" rot="R180"/>
-<instance part="INT0" gate="G$1" x="200.66" y="134.62" rot="R180"/>
-<instance part="INT1" gate="G$1" x="200.66" y="121.92" rot="R180"/>
-<instance part="OC1A" gate="G$1" x="165.1" y="121.92" rot="R180"/>
-<instance part="CLKO" gate="G$1" x="200.66" y="109.22" rot="R180"/>
-<instance part="PWRIN" gate="G$1" x="76.2" y="124.46" rot="R180"/>
-<instance part="GND9" gate="1" x="63.5" y="114.3"/>
-<instance part="SUPPLY3" gate="G$1" x="63.5" y="132.08"/>
+<instance part="INT0" gate="G$1" x="200.66" y="144.78" rot="R180"/>
+<instance part="INT1" gate="G$1" x="200.66" y="132.08" rot="R180"/>
+<instance part="OC1A" gate="G$1" x="165.1" y="132.08" rot="R180"/>
+<instance part="CLKO" gate="G$1" x="200.66" y="119.38" rot="R180"/>
+<instance part="PWRIN" gate="G$1" x="58.42" y="124.46" rot="R180"/>
+<instance part="GND9" gate="1" x="45.72" y="114.3"/>
+<instance part="SUPPLY3" gate="G$1" x="45.72" y="132.08"/>
 <instance part="POWER" gate="G$1" x="208.28" y="76.2" rot="R180"/>
 <instance part="TOUCH" gate="G$1" x="208.28" y="27.94" rot="R180"/>
 <instance part="LED4" gate="G$1" x="134.62" y="40.64"/>
@@ -11757,6 +11754,11 @@ for just under 20mA at
 <instance part="P+7" gate="VCC" x="172.72" y="50.8"/>
 <instance part="PROG/SPI" gate="A" x="198.12" y="-30.48"/>
 <instance part="R108" gate="G$1" x="190.5" y="81.28" rot="R270"/>
+<instance part="PWROUT" gate="G$1" x="83.82" y="124.46" rot="R180"/>
+<instance part="P+8" gate="VCC" x="71.12" y="134.62"/>
+<instance part="GND12" gate="1" x="71.12" y="114.3"/>
+<instance part="UART" gate="G$1" x="200.66" y="160.02" rot="R180"/>
+<instance part="I2C" gate="G$1" x="165.1" y="160.02" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -11851,8 +11853,14 @@ for just under 20mA at
 <pinref part="R108" gate="G$1" pin="1"/>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
 </segment>
+<segment>
+<pinref part="P+8" gate="VCC" pin="VCC"/>
+<pinref part="PWROUT" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="132.08" x2="71.12" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="124.46" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
+</segment>
 </net>
-<net name="GND" class="0">
+<net name="N7" class="0">
 <segment>
 <pinref part="U101" gate="G$1" pin="AGND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -11935,8 +11943,8 @@ for just under 20mA at
 </segment>
 <segment>
 <pinref part="PWRIN" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="121.92" x2="63.5" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="121.92" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="121.92" x2="45.72" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="121.92" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -11948,6 +11956,12 @@ for just under 20mA at
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="R107" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="20.32" x2="172.72" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="PWROUT" gate="G$1" pin="2"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="76.2" y1="121.92" x2="71.12" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="121.92" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -12133,7 +12147,7 @@ for just under 20mA at
 <segment>
 <wire x1="157.48" y1="160.02" x2="142.24" y2="160.02" width="0.1524" layer="91"/>
 <label x="142.24" y="160.02" size="1.778" layer="95"/>
-<pinref part="SDA" gate="G$1" pin="1"/>
+<pinref part="I2C" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -12157,9 +12171,9 @@ for just under 20mA at
 <pinref part="TOUCH" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="SCL" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="147.32" x2="142.24" y2="147.32" width="0.1524" layer="91"/>
-<label x="142.24" y="147.32" size="1.778" layer="95"/>
+<pinref part="I2C" gate="G$1" pin="2"/>
+<wire x1="157.48" y1="157.48" x2="142.24" y2="157.48" width="0.1524" layer="91"/>
+<label x="142.24" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -12256,8 +12270,8 @@ for just under 20mA at
 </segment>
 <segment>
 <pinref part="PWRIN" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="124.46" x2="63.5" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="124.46" x2="63.5" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="124.46" x2="45.72" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="124.46" x2="45.72" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="VEE"/>
 </segment>
 </net>
@@ -12320,8 +12334,8 @@ for just under 20mA at
 <net name="ADC6" class="0">
 <segment>
 <pinref part="ADC6" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="109.22" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
-<label x="142.24" y="109.22" size="1.778" layer="95"/>
+<wire x1="157.48" y1="119.38" x2="142.24" y2="119.38" width="0.1524" layer="91"/>
+<label x="142.24" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U101" gate="G$1" pin="ADC6"/>
@@ -12336,7 +12350,7 @@ for just under 20mA at
 <label x="116.84" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RX" gate="G$1" pin="1"/>
+<pinref part="UART" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="160.02" x2="177.8" y2="160.02" width="0.1524" layer="91"/>
 <label x="177.8" y="160.02" size="1.778" layer="95"/>
 </segment>
@@ -12348,9 +12362,9 @@ for just under 20mA at
 <label x="116.84" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TX" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="147.32" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
-<label x="177.8" y="147.32" size="1.778" layer="95"/>
+<pinref part="UART" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="157.48" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
+<label x="177.8" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INT0" class="0">
@@ -12361,8 +12375,8 @@ for just under 20mA at
 </segment>
 <segment>
 <pinref part="INT0" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="134.62" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
-<label x="177.8" y="134.62" size="1.778" layer="95"/>
+<wire x1="193.04" y1="144.78" x2="177.8" y2="144.78" width="0.1524" layer="91"/>
+<label x="177.8" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INT1" class="0">
@@ -12373,8 +12387,8 @@ for just under 20mA at
 </segment>
 <segment>
 <pinref part="INT1" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="121.92" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
-<label x="177.8" y="121.92" size="1.778" layer="95"/>
+<wire x1="193.04" y1="132.08" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
+<label x="177.8" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OC1A" class="0">
@@ -12385,8 +12399,8 @@ for just under 20mA at
 </segment>
 <segment>
 <pinref part="OC1A" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="121.92" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
-<label x="142.24" y="121.92" size="1.778" layer="95"/>
+<wire x1="157.48" y1="132.08" x2="142.24" y2="132.08" width="0.1524" layer="91"/>
+<label x="142.24" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OC1B/SS" class="0">
@@ -12397,8 +12411,8 @@ for just under 20mA at
 </segment>
 <segment>
 <pinref part="OC1B/SS" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="134.62" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
-<label x="142.24" y="134.62" size="1.778" layer="95"/>
+<wire x1="157.48" y1="144.78" x2="142.24" y2="144.78" width="0.1524" layer="91"/>
+<label x="142.24" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC7" class="0">
@@ -12490,8 +12504,8 @@ for just under 20mA at
 <label x="116.84" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="193.04" y1="109.22" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
-<label x="177.8" y="109.22" size="1.778" layer="95"/>
+<wire x1="193.04" y1="119.38" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
+<label x="177.8" y="119.38" size="1.778" layer="95"/>
 <pinref part="CLKO" gate="G$1" pin="1"/>
 </segment>
 </net>

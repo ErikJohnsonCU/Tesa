@@ -1,2 +1,11 @@
+Traces
+======
 Signal lines: 8 mil
 Power lines: 12 mil
+
+Text
+====
+Header names: 50(12%)
+Header designations: 36(10%)
+Components: 25(8%)
+
