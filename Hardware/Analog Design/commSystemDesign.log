@@ -1,0 +1,22 @@
+Circuit: * C:\Program Files (x86)\LTC\LTspiceIV\commSystemDesign.asc
+
+Per .tran options, skipping operating point for transient analysis.
+
+Date: Fri Oct 24 14:13:08 2014
+Total elapsed time: 0.130 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 7606
+traniter = 7606
+tranpoints = 2851
+accept = 2326
+rejected = 525
+matrix size = 19
+fillins = 18
+solver = Normal
+Matrix Compiler1: 1.64 KB object code size  0.6/0.3/[0.1]
+Matrix Compiler2: 1.77 KB object code size  0.2/0.2/[0.1]
+
+
