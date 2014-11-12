@@ -1,0 +1,13 @@
+Firmware Design Stages
+======================
+
+Modular Code Development
+========================
+1. LED driver (shift register)
+2. Touch (I2C)
+3. Accelermeter (I2C)
+
+Combination Stage
+===================
+1. State flow diagram
+2. 
